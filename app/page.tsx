@@ -43,12 +43,19 @@ export default function Home() {
                   className="object-contain"
                 />
               </div>
-              <button
-                onClick={() => setImage(null)}
-                className="mt-4 px-4 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
-              >
-                Remove Image
-              </button>
+              <div className="flex gap-2 justify-center">
+                <button
+                  className="mt-4 px-4 py-2 bg-violet-500 text-white rounded-full hover:bg-violet-600 transition-colors"
+                >
+                  🥣
+                </button>
+                <button
+                  onClick={() => setImage(null)}
+                  className="mt-4 px-4 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+                >
+                  Remove Image
+                </button>
+              </div>
             </div>
           )}
         </div>
